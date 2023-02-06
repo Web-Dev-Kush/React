@@ -1,0 +1,29 @@
+Q1. What is Emmet?
+Ans - Emmet uses different abbreviations and short expressions depending on what's passed, and then dynamically 
+converts the abbreviations into the full code. Emmet is mostly used for HTML, XML, and CSS, but it can also be used with programming languages.
+
+Q2. Difference between a Library and Framework?
+Ans - Developers generally use the terms “library” and “framework” interchangeably. In this tutorial, we’ll learn the differences between them, as well as explore various aspects of each. We can say that a library implements a particular function. Some examples of popular libraries are React, and JQuery. We can define a framework as a collection of libraries implementing a particular methodology. Some of the more commonly known frameworks are Angular, Vue, Model View Controller, and Model View Presenter.
+A framework enables a coding environment that contains low-level libraries to address conventional coding issues. The objective of a framework is to deliver faster development of an application. This includes everything we need to build large-scale applications, such as templates based on best practices. Let’s consider the inner workings of a framework. If we’re using a graphical user interface (GUI) framework, it calls the code through event handlers. If we’re using a web framework, it calls the code through a request-response model. For a web application, JavaScript frameworks provide a skeleton with the tools for fast development. Internally, such a framework contains a large collection of libraries that provides the developer with inbuilt functionalities, which helps to develop an application without extensive coding knowledge.
+
+Q3. What is CDN? Why do we use it?
+Ans - It is a system of distributed servers that deliver content to a user based on their geographic location. CDNs are used to improve the performance of websites and web applications by reducing the latency of content delivery. To use a CDN in React Js, you will need to include the CDN in your index.
+Both React and ReactDOM are available over a CDN.
+CDNs cache content like web pages, images, and video in proxy servers near to your physical location. This allows you to do things like watch a movie, download software, check your bank balance, post on social media, or make purchases, without having to wait for content to load.
+
+Q4. Why is React known as React?
+And it’s called React because it reacts. It was developed by Facebook (a site that CONSTANTLY updates their data) to improve the user interface development and more effectively change (REACT to) what the user sees when they’re doing things like mouse clicking, submitting and typing.
+
+Q5. What is crossorigin in script tag?
+Ans - The crossorigin attribute on a <script> tag specifies that CORS is supported when loading an external script file from a third party server or domain. CORS is a standard mechanism used to retrieve files from other domains.
+
+Q6. What is diference between React and ReactDOM?
+Ans - In order to work with React in the browsers, we need to include 2 libraries: React and ReactDOM. React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+Q7. What is difference between react.development.js and react.production.js files via CDN?
+Ans - The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+Q8. What is async and defer?
+Ans - If you're working with JavaScript, it's important to understand the difference between async and defer attributes. Async allows your script to run as soon as it's loaded, without blocking other elements on the page. Defer means your script will only execute after the page has finished loading
