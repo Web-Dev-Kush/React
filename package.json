@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a Live Course",
+  "main": "App.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-Dev-Kush/React.git"
+  },
+  "author": "Himanshu Kushwaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web-Dev-Kush/React/issues"
+  },
+  "homepage": "https://github.com/Web-Dev-Kush/React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
