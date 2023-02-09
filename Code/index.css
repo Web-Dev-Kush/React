@@ -1,0 +1,33 @@
+#container {
+    background: white;
+    color: black;
+    
+}
+
+h1{
+    font-weight: 500;
+    background-color: rgb(226, 113, 38);
+}
+h2{
+    font-weight: 500;
+    background-color: rgb(185, 194, 101);
+}
+/* div{
+    display: flex;
+    background-color: rgb(154, 229, 231);
+    margin-top: 0.23rem;
+    padding: auto; */
+
+#tagLi{
+    padding: 0.45rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 500;
+    text-align: end;
+    display: flex;
+    
+    
+}
+#headerUl{
+    display: flex;
+}
