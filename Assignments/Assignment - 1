@@ -19,7 +19,7 @@ Ans - The crossorigin attribute on a <script> tag specifies that CORS is support
 
 Q6. What is diference between React and ReactDOM?
 Ans - In order to work with React in the browsers, we need to include 2 libraries: React and ReactDOM. React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
-
+vvv
 Q7. What is difference between react.development.js and react.production.js files via CDN?
 Ans - The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.
 <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
